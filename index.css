@@ -1,0 +1,38 @@
+body{
+    background-color:#CDD3D5;
+  }
+  .main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;   
+    margin-top:5rem;
+    height: 30rem;
+  }
+  .label{
+    font-size:18px;
+    font-family:monospace;
+    text-align:center;
+    margin: 1rem;
+  }
+  .calculator{  
+    display:flex;
+    flex-direction:column;
+    width:300px;
+  }
+  button{
+    background-color:#75B8C8;
+    border-radius:20px;
+    color:#fff;
+    font-size:22px;
+  }
+  .calculator > input{
+    border-radius:20px;
+    height:30px;
+  }
+  .calculator > input:hover{
+    background-color: #C2EDE5;
+  }
+  .calculator > select{
+    border-radius:20px;
+    height:30px;
+  }
